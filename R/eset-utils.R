@@ -20,7 +20,7 @@ setGeneric('pVar', function(object, x, ...) standardGeneric('pVar') )
 
 #' @describeIn pVar simply returns `x`, after checking that it has the same length 
 #' as the number of columns in `x`.
-setMethod('pVar', signature(object = 'matrix'), 
+setMethod('pVar', signature(object = 'dgCMatrix'), 
     function(object, x){    
       if( length(x) != ncol(object) )
         stop(sprintf("Invalid phenotypic variable length [%s]: must be of length the number of samples in data [%s].", length(x), ncol(object)))
