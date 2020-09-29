@@ -10,7 +10,9 @@ Description: Provides extra utility functions to perform common tasks in
     by Bioconductor packages.
 License: GPL (>= 3)
 Encoding: UTF-8
-Remotes: renozao/pkgmaker@develop
+Remotes: 
+    renozao/pkgmaker@develop,
+    crhisto/Biobase
 Depends:
     R (>= 3.1),
     methods,
