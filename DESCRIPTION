@@ -11,11 +11,13 @@ Description: Provides extra utility functions to perform common tasks in
 License: GPL (>= 3)
 Encoding: UTF-8
 Remotes: 
-    renozao/pkgmaker@develop
+    renozao/pkgmaker@develop,
+    crhisto/Biobase
 Depends:
     R (>= 3.1),
     methods,
-    AnnotationDbi
+    AnnotationDbi,
+    Biobase
 Imports:
     stats,
     pkgmaker (>= 0.26.6),
